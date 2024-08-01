@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		40D0A7412C5BE6C3000EB822 /* Grocery_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7402C5BE6C3000EB822 /* Grocery_TrackerApp.swift */; };
-		40D0A7432C5BE6C3000EB822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7422C5BE6C3000EB822 /* ContentView.swift */; };
 		40D0A7452C5BE6C6000EB822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D0A7442C5BE6C6000EB822 /* Assets.xcassets */; };
 		40D0A7482C5BE6C6000EB822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D0A7472C5BE6C6000EB822 /* Preview Assets.xcassets */; };
+		40D0A74F2C5BE6E2000EB822 /* GroceryTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A74E2C5BE6E2000EB822 /* GroceryTracker.swift */; };
+		40D0A7512C5BE6EA000EB822 /* ExpiredProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7502C5BE6EA000EB822 /* ExpiredProduct.swift */; };
+		40D0A7532C5BE6F3000EB822 /* ExpiredSoonProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7522C5BE6F3000EB822 /* ExpiredSoonProduct.swift */; };
+		40D0A7552C5BE6FD000EB822 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7542C5BE6FD000EB822 /* TabBar.swift */; };
+		40D0A7572C5BE70A000EB822 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7562C5BE70A000EB822 /* DataModels.swift */; };
+		40D0A7592C5BE715000EB822 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D0A7582C5BE715000EB822 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40D0A73D2C5BE6C3000EB822 /* Grocery Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D0A7402C5BE6C3000EB822 /* Grocery_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_TrackerApp.swift; sourceTree = "<group>"; };
-		40D0A7422C5BE6C3000EB822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40D0A7442C5BE6C6000EB822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D0A7472C5BE6C6000EB822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40D0A74E2C5BE6E2000EB822 /* GroceryTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTracker.swift; sourceTree = "<group>"; };
+		40D0A7502C5BE6EA000EB822 /* ExpiredProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredProduct.swift; sourceTree = "<group>"; };
+		40D0A7522C5BE6F3000EB822 /* ExpiredSoonProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredSoonProduct.swift; sourceTree = "<group>"; };
+		40D0A7542C5BE6FD000EB822 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		40D0A7562C5BE70A000EB822 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		40D0A7582C5BE715000EB822 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				40D0A7402C5BE6C3000EB822 /* Grocery_TrackerApp.swift */,
-				40D0A7422C5BE6C3000EB822 /* ContentView.swift */,
+				40D0A74E2C5BE6E2000EB822 /* GroceryTracker.swift */,
+				40D0A7502C5BE6EA000EB822 /* ExpiredProduct.swift */,
+				40D0A7522C5BE6F3000EB822 /* ExpiredSoonProduct.swift */,
+				40D0A7542C5BE6FD000EB822 /* TabBar.swift */,
+				40D0A7562C5BE70A000EB822 /* DataModels.swift */,
+				40D0A7582C5BE715000EB822 /* Extensions.swift */,
 				40D0A7442C5BE6C6000EB822 /* Assets.xcassets */,
 				40D0A7462C5BE6C6000EB822 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40D0A7432C5BE6C3000EB822 /* ContentView.swift in Sources */,
+				40D0A7532C5BE6F3000EB822 /* ExpiredSoonProduct.swift in Sources */,
+				40D0A74F2C5BE6E2000EB822 /* GroceryTracker.swift in Sources */,
 				40D0A7412C5BE6C3000EB822 /* Grocery_TrackerApp.swift in Sources */,
+				40D0A7572C5BE70A000EB822 /* DataModels.swift in Sources */,
+				40D0A7512C5BE6EA000EB822 /* ExpiredProduct.swift in Sources */,
+				40D0A7552C5BE6FD000EB822 /* TabBar.swift in Sources */,
+				40D0A7592C5BE715000EB822 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
